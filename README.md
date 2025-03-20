@@ -12,3 +12,6 @@ print(text.encode())  # Output: b'hello'
 
 3 str.islower()
 Returns True if all characters are lowercase.
+
+text = "hello"
+print(text.islower())  # Output: True
