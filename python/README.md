@@ -37,7 +37,8 @@ The str.capitalize() method is used to format text by converting the first chara
 
 # str.startswith
 
-The str.startswith() method checks whether a string begins with a specified prefix and returns True if it does and False otherwise. This method is useful for validating input formats, such as checking if a file name starts with a specific prefix or if a web address begins with "https". It also supports optional start and end parameters, allowing for more precise checks within a portion of the string rather than the entire text
+The str.startswith() method checks whether a string begins with a specified prefix and returns True if it does and False otherwise. This method is useful for validating input formats, such as checking if a file name starts with a specific prefix or if a web address begins with "https". It also supports optional start and end parameters, allowing for more precise checks within a portion of the string rather than the entire text.
+
 
 
 # str.endswith
