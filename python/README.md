@@ -43,3 +43,22 @@ The str.startswith() method checks whether a string begins with a specified pref
 
 # str.endswith
 The str.endswith() method functions similarly to str.startswith(), but it checks whether a string ends with a specific suffix. It returns True if the string ends with the given substring and False otherwise. This method is commonly used in file handling, such as verifying if a file has a particular extension like .txt or .csv, and also supports optional start and end parameters for more controlled substring matching. 
+
+
+
+
+# str.count
+The str.count() method counts the number of times a specified substring appears in a string and returns the count as an integer. This method is useful for analyzing text, such as counting word occurrences in a document or detecting repeated characters. It also accepts optional start and end parameters, allowing for substring counting within a specific range.
+
+
+
+
+
+# str.replace()
+The str.replace() method replaces all occurrences of a specified substring with another substring and returns the modified string. This method is commonly used in text processing tasks, such as correcting typos, formatting data, or filtering unwanted words. It also accepts an optional third argument that limits the number of replacements.
+
+
+
+
+# str.strip()
+The str.strip() method removes any leading and trailing whitespace (spaces, tabs, or newline characters) from a string. This is useful for cleaning user input, removing accidental spaces from data, or preparing text for further processing. If a specific set of characters is provided as an argument, str.strip() removes only those characters from both ends of the string
