@@ -62,3 +62,29 @@ The str.replace() method replaces all occurrences of a specified substring with 
 
 # str.strip()
 The str.strip() method removes any leading and trailing whitespace (spaces, tabs, or newline characters) from a string. This is useful for cleaning user input, removing accidental spaces from data, or preparing text for further processing. If a specific set of characters is provided as an argument, str.strip() removes only those characters from both ends of the string
+
+
+
+
+
+# str.lstrip
+
+The lstrip() method returns a copy of the string with leading whitespace removed. You can also specify a set of characters to remove from the beginning of the string.
+
+
+
+
+
+
+
+
+# str.rstrip
+
+The rstrip() method returns a copy of the string with trailing whitespace removed. Like lstrip(), you can specify a set of characters to remove from the end of the string.
+
+
+
+# str.split
+
+The split() method divides a string into a list of substrings based on a specified separator. If no separator is provided, it splits on any whitespace by default.
+
