@@ -88,3 +88,26 @@ The rstrip() method returns a copy of the string with trailing whitespace remove
 
 The split() method divides a string into a list of substrings based on a specified separator. If no separator is provided, it splits on any whitespace by default.
 
+
+
+
+
+# str.join
+The str.join() method is used to merge elements of a list or tuple into a single string, placing the specified separator between them
+
+
+# str.isalpha
+The str.isalpha() method checks if all characters in a string are letters. If the string contains numbers, spaces, or symbols, it returns False. 
+
+# str.isdigit
+The str.isdigit() method checks if a string contains only numeric digits. If the string includes letters, spaces, or special characters, it returns False
+
+
+
+
+
+
+
+
+
+
