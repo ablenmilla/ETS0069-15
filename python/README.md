@@ -102,6 +102,22 @@ The str.isalpha() method checks if all characters in a string are letters. If th
 # str.isdigit
 The str.isdigit() method checks if a string contains only numeric digits. If the string includes letters, spaces, or special characters, it returns False
 
+ 
+# str.isalnum
+The isalnum() method checks whether a string consists only of alphabetic letters and digits, without any spaces or special characters. If all characters are alphanumeric, it returns True; otherwise, it returns False. This method is useful for validating user input, such as usernames or passwords that should contain only letters and numbers.
+
+
+
+# str.isspace
+The isspace() method determines if a string is made up entirely of whitespace characters, such as spaces, tabs, or newlines. If every character in the string is a whitespace character, it returns True; otherwise, it returns False. This method is commonly used to check for empty input or to validate formatting in text processing.
+
+
+
+
+
+
+# str.format
+The format() method is used for inserting values into a string by replacing placeholders {} with specified arguments. It supports both positional and keyword-based formatting, allowing for dynamic and readable text generation. This method is widely used for displaying messages, formatting reports, and constructing complex strings efficiently.
 
 
 
