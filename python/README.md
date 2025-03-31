@@ -124,6 +124,24 @@ The format() method is used for inserting values into a string by replacing plac
 
 
 
+ # f-strings 
+
+f-strings (introduced in Python 3.6) provide a concise and readable way to format strings. They allow you to embed expressions inside string literals using curly braces {}. This makes it easy to insert variables and perform calculations directly within a string.
 
 
 
+
+
+
+
+# len
+
+The len() function returns the number of characters in a string, including spaces and special characters. It is useful for determining the size of a string, validating input length, and looping through characters efficiently.
+
+
+
+
+
+# str.encode
+
+The str.encode() method converts a string into a bytes object using a specified encoding format (default is UTF-8). This is useful when working with files, networking, or data storage where encoding is required.
