@@ -145,3 +145,15 @@ The len() function returns the number of characters in a string, including space
 # str.encode
 
 The str.encode() method converts a string into a bytes object using a specified encoding format (default is UTF-8). This is useful when working with files, networking, or data storage where encoding is required.
+
+ # str.islower
+The islower() method returns True if all characters in the string are lowercase; otherwise, it returns False. If the string contains no alphabetic characters, it returns False
+
+
+
+
+ # str.isupper
+The isupper() method returns True if all the alphabetic characters in a string are uppercase. If the string contains at least one lowercase letter, it returns False. If the string has no alphabetic characters, it also returns False.
+
+
+
