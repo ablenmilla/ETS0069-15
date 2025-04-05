@@ -23,6 +23,10 @@ The clear() method removes all elements from a list, making it completely empty.
 
 
 
+
+
+
+
 # copy
 The copy() method creates a duplicate of a list. This is useful when you want to work with the same data but avoid modifying the original list. If you make changes to the copied list, the original remains unchanged. Think of it like making a photocopy of a document—writing on the copy doesn’t change the original.
 
@@ -39,3 +43,21 @@ The insert() method allows you to add a single element at a specific position in
 
 # index
 The index() method is used to find the position (index) of the first occurrence of a specified value in a list. If the value exists, it returns the index number. If the value is not found, it raises a ValueError. You can also optionally specify the start and end positions to limit the search range. 
+
+
+
+
+# pop
+The pop() method removes and returns the item at a given index (by default, it removes the last item if no index is given). This is useful when you want to use or store the removed item
+
+
+
+
+# remove
+The remove() method removes the first occurrence of a specific value from the list. If the value doesn't exist, it throws a ValueError
+
+
+
+
+# reverse
+The reverse() method in Python is used to reverse the order of elements in a list. It modifies the original list in place, meaning it does not create a new list but directly changes the original one. This method does not take any arguments and does not return any value — it simply flips the elements so that the first becomes the last and the last becomes the first. This is especially useful when you want to process a list from the end to the beginning or just want to display elements in the opposite order.
