@@ -15,7 +15,12 @@ The clear() method removes all elements from a list, making it completely empty.
 
 
 
-
+# The sort()
+ method sorts the list in place—it changes the original list and doesn’t return a new list.
+Default is ascending order.
+It can take two optional arguments:
+key: a function that serves as a basis for sorting.
+reverse: True to sort in descending order.
 
 
 
