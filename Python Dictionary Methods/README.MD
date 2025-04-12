@@ -22,3 +22,21 @@ The items() method returns a view object that contains all key-value pairs in th
 
 # keys
 The keys() method returns a view object that contains all the keys in the dictionary. This is useful for checking what keys are present or looping through just the keys. Although it looks like a list, it is a special view object that reflects changes in the dictionary.
+
+
+
+
+
+
+# pop
+The pop() method removes the specified key from a dictionary and returns its value. If the key is not found, it raises a KeyError unless a default value is provided.
+
+
+# popitem
+The popitem() method removes and returns the last inserted key-value pair from the dictionary. It's often used when you want to process and remove items one by one from the end.
+
+
+
+
+#  setdefault
+The setdefault() method returns the value of a key if it exists; if not, it adds the key with a default value you specify and then returns that value.
