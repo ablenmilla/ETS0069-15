@@ -40,3 +40,14 @@ The popitem() method removes and returns the last inserted key-value pair from t
 
 #  setdefault
 The setdefault() method returns the value of a key if it exists; if not, it adds the key with a default value you specify and then returns that value.
+
+
+
+ # update
+
+The update() method is used to update the contents of a dictionary with key-value pairs from another dictionary or an iterable of key-value pairs (like a list of tuples). If a key already exists, its value will be updated. If the key doesn’t exist, it will be added.
+
+
+# values
+
+The values() method returns a view object that displays a list of all the values in the dictionary. This is useful when you just want to work with the values and ignore the keys.
