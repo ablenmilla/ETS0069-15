@@ -24,3 +24,21 @@ The difference_update() method removes the elements found in another set from th
  # discard
 
 The discard() method removes a specific element from the set if it exists. If the element is not present, it does nothing (no error is raised).
+
+
+
+# intersection
+Description:
+The intersection() method returns a new set with elements that are common to both sets. It does not modify the original sets.
+
+
+
+
+# intersection_update
+Description:
+The intersection_update() method modifies the original set by keeping only elements that are common with another set. It doesn't return anything.
+
+
+# isdisjoint
+Description:
+The isdisjoint() method checks whether two sets have no elements in common. It returns True if they are completely separate, and False if they share any item.
